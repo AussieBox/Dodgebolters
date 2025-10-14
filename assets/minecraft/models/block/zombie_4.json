@@ -1,0 +1,9 @@
+{
+    "textures": {
+        "top": "block/ztop",
+        "front": "block/z4",
+        "side": "block/zside",
+        "bottom": "block/zside"
+    },
+    "parent": "block/orientable"
+}

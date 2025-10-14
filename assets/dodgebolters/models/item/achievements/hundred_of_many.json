@@ -1,0 +1,8 @@
+{
+    "parent": "dodgebolters:item/achievements/parent/base",
+    "textures": {
+      "border": "dodgebolters:item/achievements/parent/border",
+      "badge": "dodgebolters:item/achievements/hundred_of_many",
+      "particle": "dodgebolters:item/achievements/hundred_of_many"
+    }
+  }

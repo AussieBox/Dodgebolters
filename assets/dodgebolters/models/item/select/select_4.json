@@ -1,0 +1,7 @@
+{
+    "parent": "dodgebolters:item/select/parent/select",
+    "textures": {
+      "texture": "dodgebolters:item/select/4",
+      "particle": "dodgebolters:item/select/4"
+    }
+  }

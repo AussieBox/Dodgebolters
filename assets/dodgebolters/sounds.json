@@ -1,0 +1,231 @@
+{
+    "countdown.end_lose": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.end_lose",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "countdown.end_normal": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.end_normal",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "countdown.end_overtime": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.end_overtime",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "countdown.end_win": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.end_win",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "countdown.match_point": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.match_point",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "misc.achievement_earned": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:misc.achievement_earned",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "misc.booster_activate": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:misc.booster_activate",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "misc.ominous": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:misc.ominous",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "misc.thefunny": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:misc.thefunny",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "music.countdown": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:music.countdown",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "music.ingame": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:music.ingame",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "music.overtime": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:music.overtime",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "ui.announcement": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:ui.announcement"
+            }
+        ]
+    },
+    "ui.click_normal": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:ui.click_normal"
+            }
+        ]
+    },
+    "music.creative": {
+        "replace": true
+    },
+    "music.credits": {
+        "replace": true
+    },
+    "music.dragon": {
+        "replace": true
+    },
+    "music.end": {
+        "replace": true
+    },
+    "music.game": {
+        "replace": true
+    },
+    "music.menu": {
+        "replace": true
+    },
+    "music.nether.basalt_deltas": {
+        "replace": true
+    },
+    "music.nether.crimson_forest": {
+        "replace": true
+    },
+    "music.nether.nether_wastes": {
+        "replace": true
+    },
+    "music.nether.soul_sand_valley": {
+        "replace": true
+    },
+    "music.nether.warped_forest": {
+        "replace": true
+    },
+    "music.overworld.badlands": {
+        "replace": true
+    },
+    "music.overworld.bamboo_jungle": {
+        "replace": true
+    },
+    "music.overworld.cherry_grove": {
+        "replace": true
+    },
+    "music.overworld.deep_dark": {
+        "replace": true
+    },
+    "music.overworld.desert": {
+        "replace": true
+    },
+    "music.overworld.dripstone_caves": {
+        "replace": true
+    },
+    "music.overworld.flower_forest": {
+        "replace": true
+    },
+    "music.overworld.forest": {
+        "replace": true
+    },
+    "music.overworld.frozen_peaks": {
+        "replace": true
+    },
+    "music.overworld.grove": {
+        "replace": true
+    },
+    "music.overworld.jagged_peaks": {
+        "replace": true
+    },
+    "music.overworld.jungle": {
+        "replace": true
+    },
+    "music.overworld.lush_caves": {
+        "replace": true
+    },
+    "music.overworld.meadow": {
+        "replace": true
+    },
+    "music.overworld.old_growth_taiga": {
+        "replace": true
+    },
+    "music.overworld.snowy_slopes": {
+        "replace": true
+    },
+    "music.overworld.sparse_jungle": {
+        "replace": true
+    },
+    "music.overworld.stony_peaks": {
+        "replace": true
+    },
+    "music.overworld.swamp": {
+        "replace": true
+    },
+    "music.under_water": {
+        "replace": true
+    }
+}

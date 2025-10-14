@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
+            "type": "ttf",
+            "file": "dodgebolters:small.ttf",
+            "shift": [
+                0.0,
+                -31.5
+            ],
+            "size": 7,
+            "oversample": 4
+        }
+    ]
+}

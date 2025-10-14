@@ -1,0 +1,53 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/fade_1.png",
+            "chars": ["1"],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/fade_2.png",
+            "chars": ["2"],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/fade_3.png",
+            "chars": ["3"],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/arena_shrinking/normal.png",
+            "chars": [""],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/arena_shrinking/glowing.png",
+            "chars": [""],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/match_point/normal.png",
+            "chars": [""],
+            "ascent": 30,
+            "height": 128
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/warnings/match_point/glowing.png",
+            "chars": [""],
+            "ascent": 30,
+            "height": 128
+        }
+    ]
+}

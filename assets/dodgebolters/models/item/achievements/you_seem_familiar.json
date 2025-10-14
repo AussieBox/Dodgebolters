@@ -1,0 +1,8 @@
+{
+    "parent": "dodgebolters:item/achievements/parent/base",
+    "textures": {
+      "border": "dodgebolters:item/achievements/parent/border",
+      "badge": "dodgebolters:item/achievements/you_seem_familiar",
+      "particle": "dodgebolters:item/achievements/you_seem_familiar"
+    }
+  }

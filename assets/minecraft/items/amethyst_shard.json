@@ -1,0 +1,69 @@
+{
+  "model":{
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/red/bronze"
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/red/silver"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/red/gold"
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/blue/bronze"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/blue/silver"
+        }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/blue/gold"
+        }
+      },
+      {
+        "threshold": 7.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/red/none"
+        }
+      },
+      {
+        "threshold": 8.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/supporter_flags/blue/none"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/amethyst_shard"	
+    }
+  },
+  "oversized_in_gui": true
+}

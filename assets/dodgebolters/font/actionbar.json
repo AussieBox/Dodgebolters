@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/actionbar/arena_shrinking/arena_shrinking.png",
+            "chars": [""],
+            "ascent": 70,
+            "height": 129
+        }
+    ]
+}

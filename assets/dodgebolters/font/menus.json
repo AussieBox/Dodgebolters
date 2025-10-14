@@ -1,0 +1,116 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/header.png",
+            "chars": ["0"],
+            "ascent": 33,
+            "height": 36
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_normal.png",
+            "chars": ["1"],
+            "ascent": -121,
+            "height": 17
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_middle_hole_1.png",
+            "chars": ["2"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_middle_hole_2.png",
+            "chars": ["3"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_middle_hole_3.png",
+            "chars": ["4"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_button_1.png",
+            "chars": ["5"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_button_2.png",
+            "chars": ["6"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/footer_button_small_3.png",
+            "chars": ["7"],
+            "ascent": -121,
+            "height": 65
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/general/large_grid.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/general/large_grid_top.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/general/large_grid_tab_1.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/general/large_grid_tab_2.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/achievements.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/help.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/profile.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/settings.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        }
+    ]
+}

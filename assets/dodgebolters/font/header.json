@@ -1,0 +1,73 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/achievements.png",
+            "chars": [
+                "a"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/credits.png",
+            "chars": [
+                "c"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/help.png",
+            "chars": [
+                "h"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/patch_notes.png",
+            "chars": [
+                "n"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/profile.png",
+            "chars": [
+                "p"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/settings.png",
+            "chars": [
+                "s"
+            ],
+            "ascent": 26,
+            "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/commands.png",
+            "chars": [
+                "C"
+            ],
+            "ascent": 26,
+            "height": 26
+        }
+    ]
+}

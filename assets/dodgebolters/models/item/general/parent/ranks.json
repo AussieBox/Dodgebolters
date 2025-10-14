@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "dodgebolters:item/ranks/artist",
+		"rank": "dodgebolters:item/ranks/artist"
+	},
+	"elements": [
+		{
+			"from": [-3, -3, 15],
+			"to": [16, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 14]},
+			"faces": {
+				"north": {"uv": [11.25, 0, 16, 8.75], "texture": "#rank"},
+				"east": {"uv": [0, 0, 0.01, 0.01], "texture": "#rank"},
+				"south": {"uv": [11.25, 0, 16, 8.75], "texture": "#rank"},
+				"west": {"uv": [0, 0, 0.01, 0.01], "texture": "#rank"},
+				"up": {"uv": [0, 0, 0.01, 0.01], "texture": "#rank"},
+				"down": {"uv": [0, 0, 0.01, 0.01], "texture": "#rank"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [-1, -33, 0]
+		}
+	}
+}
