@@ -109,6 +109,16 @@
             }
         ]
     },
+    "music.modifier": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:music.modifier",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
     "music.overtime": {
         "replace": false,
         "sounds": [
