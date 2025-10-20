@@ -251,6 +251,19 @@
         }
       },
       {
+        "threshold": 20.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/wings_of_time",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
         "threshold": 1000.0,
         "model": {
           "type": "minecraft:model",
