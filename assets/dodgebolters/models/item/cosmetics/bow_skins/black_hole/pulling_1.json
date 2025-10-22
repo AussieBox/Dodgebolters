@@ -4,22 +4,22 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "dodgebolters:item/cosmetics/bow_skins/black_hole/outline_1",
+		"2": "dodgebolters:item/cosmetics/bow_skins/black_hole/arrow_gui",
 		"3": "dodgebolters:item/cosmetics/bow_skins/black_hole/bow",
 		"particle": "dodgebolters:item/cosmetics/bow_skins/black_hole/bow"
 	},
 	"elements": [
 		{
-			"from": [2.84315, 7.975, 0.15685],
-			"to": [18.84315, 7.975, 16.15685],
-			"rotation": {"angle": -45, "axis": "y", "origin": [10.84315, 7.975, 8.15685]},
-			"color": 7,
+			"from": [4.84315, 7.575, 2.15685],
+			"to": [16.84315, 7.575, 14.15685],
+			"rotation": {"angle": -45, "axis": "y", "origin": [10.84315, 7.575, 8.15685]},
 			"faces": {
 				"north": {"uv": [0, 8, 8, 8], "texture": "#missing"},
 				"east": {"uv": [-8, 8, 0, 8], "texture": "#missing"},
 				"south": {"uv": [16, 8, 24, 8], "texture": "#missing"},
 				"west": {"uv": [8, 8, 16, 8], "texture": "#missing"},
-				"up": {"uv": [8, 8, 0, 0], "texture": "#missing"},
-				"down": {"uv": [8, 0, 0, 8], "texture": "#missing"}
+				"up": {"uv": [16, 16, 0, 0], "texture": "#2"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#2"}
 			}
 		},
 		{
