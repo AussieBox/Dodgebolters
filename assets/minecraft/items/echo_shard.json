@@ -335,6 +335,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/commands_icon"
         }
+      },
+      {
+        "threshold": 34.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/cosmetic_ticket"
+        }
       }
     ],
     "fallback": {
