@@ -1,0 +1,7 @@
+{
+    "parent": "dodgebolters:item/general/parent/54x18_button",
+    "textures": {
+      "texture": "dodgebolters:item/general/buttons/cancel",
+      "particle": "dodgebolters:item/general/buttons/cancel"
+    }
+  }

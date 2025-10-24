@@ -183,7 +183,7 @@
         }
       },
       {
-        "threshold": 12,
+        "threshold": 12.0,
         "model": {
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/buttons/confirm"
@@ -347,7 +347,49 @@
         "threshold": 35.0,
         "model": {
           "type": "minecraft:model",
-          "model": "dodgebolters:item/pouch/pouch_icon"
+          "model": "dodgebolters:item/general/pouch_icon"
+        }
+      },
+      {
+        "threshold": 36.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/coin_booster_1.5"
+        }
+      },
+      {
+        "threshold": 37.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/coin_booster_2"
+        }
+      },
+      {
+        "threshold": 38.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/crown_booster_2"
+        }
+      },
+      {
+        "threshold": 39.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/cancel"
+        }
+      },
+      {
+        "threshold": 40.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/cancel_pressed"
+        }
+      },
+      {
+        "threshold": 41.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/cancel_gray"
         }
       }
     ],

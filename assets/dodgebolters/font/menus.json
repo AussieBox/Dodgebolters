@@ -58,6 +58,13 @@
         },
         {
             "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/general/popup_item.png",
+            "chars": ["P"],
+            "ascent": -33,
+            "height": 256
+        },
+        {
+            "type": "bitmap",
             "file": "dodgebolters:fonts/menus/body/general/large_grid.png",
             "chars": [""],
             "ascent": 5,
