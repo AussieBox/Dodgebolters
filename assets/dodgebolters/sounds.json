@@ -63,9 +63,7 @@
         "replace": false,
         "sounds": [
             {
-                "name": "dodgebolters:misc.booster_activate",
-                "stream": true,
-                "channels": 2
+                "name": "dodgebolters:misc.booster_activate"
             }
         ]
     },
