@@ -346,8 +346,25 @@
       {
         "threshold": 35.0,
         "model": {
-          "type": "minecraft:model",
-          "model": "dodgebolters:item/general/pouch_icon"
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/general/pouch_icon"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/inventory/pouch_item"
+          },
+          "property": "minecraft:display_context"
         }
       },
       {
