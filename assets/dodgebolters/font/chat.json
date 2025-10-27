@@ -135,6 +135,13 @@
         },
         {
             "type": "bitmap",
+            "file": "dodgebolters:fonts/chat/bossbar/bossbar_short.png",
+            "chars": [""],
+            "ascent": 7,
+            "height": 31
+        },
+        {
+            "type": "bitmap",
             "file": "dodgebolters:fonts/chat/vanilla/clock_1.png",
             "chars": ["1"],
             "ascent": 7,
