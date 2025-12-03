@@ -1,0 +1,54 @@
+{
+  "model":{
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_ice_1"
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_ice_2"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_ice_3"
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_ice_4"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_ice_eliminated"
+        }
+      },
+      {
+        "threshold": 5000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/prismarine_shard"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/prismarine_shard"	
+    }
+  }
+}

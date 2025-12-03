@@ -288,6 +288,19 @@
               }
            ]
         }
+      },
+      {
+        "threshold": 1001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_heater",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
       }
     ],
     "fallback": {
