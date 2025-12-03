@@ -130,8 +130,8 @@
             "type": "bitmap",
             "file": "dodgebolters:fonts/chat/icons/shop.png",
             "chars": [""],
-            "ascent": 8,
-            "height": 9
+            "ascent": 7,
+            "height": 8
         },
         {
             "type": "bitmap",
@@ -139,6 +139,13 @@
             "chars": [""],
             "ascent": 7,
             "height": 31
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/chat/icons/snowflake.png",
+            "chars": [""],
+            "ascent": 7,
+            "height": 8
         },
         {
             "type": "bitmap",

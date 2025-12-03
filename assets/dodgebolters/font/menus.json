@@ -118,6 +118,13 @@
             "chars": [""],
             "ascent": 5,
             "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/event_snowdown.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
         }
     ]
 }
