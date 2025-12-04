@@ -293,7 +293,46 @@
         "threshold": 1001.0,
         "model": {
           "type": "minecraft:model",
-          "model": "dodgebolters:item/world/meltdown_heater",
+          "model": "dodgebolters:item/world/meltdown_heater_1",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 1002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_heater_2",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 1003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_heater_3",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 1004.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/world/meltdown_heater_4",
           "tints": [
               {
                 "type": "minecraft:dye",
