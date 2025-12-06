@@ -408,6 +408,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/buttons/cancel_gray"
         }
+      },
+      {
+        "threshold": 42.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/event_snowdown"
+        }
       }
     ],
     "fallback": {
