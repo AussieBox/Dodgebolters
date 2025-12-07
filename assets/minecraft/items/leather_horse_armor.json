@@ -277,6 +277,58 @@
         }
       },
       {
+        "threshold": 22.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/cryostasis",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 23.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/snowdown_top_10",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 24.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/snowdown_top_3",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 25.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/taste_the_rainbow",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
+      },
+      {
         "threshold": 1000.0,
         "model": {
           "type": "minecraft:model",
