@@ -1,6 +1,12 @@
 {
     "providers": [
         {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
             "type": "bitmap",
             "file": "dodgebolters:fonts/warnings/fade_1.png",
             "chars": ["1"],

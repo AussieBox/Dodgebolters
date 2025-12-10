@@ -1,6 +1,12 @@
 {
     "providers": [
         {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
             "type": "bitmap",
             "file": "dodgebolters:fonts/menus/general/header.png",
             "chars": ["0"],
