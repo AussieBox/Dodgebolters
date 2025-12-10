@@ -2,10 +2,17 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "dodgebolters:fonts/actionbar/arena_shrinking/arena_shrinking.png",
-            "chars": [""],
-            "ascent": 70,
-            "height": 129
+            "file": "dodgebolters:fonts/actionbar/coins.png",
+            "chars": ["c"],
+            "ascent": -22,
+            "height": 14
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/actionbar/crowns.png",
+            "chars": ["C"],
+            "ascent": -22,
+            "height": 14
         }
     ]
 }
