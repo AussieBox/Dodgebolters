@@ -9,6 +9,16 @@
             }
         ]
     },
+    "countdown.end_normal_meltdown": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:countdown.end_normal_meltdown",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
     "countdown.end_normal": {
         "replace": false,
         "sounds": [
@@ -92,6 +102,16 @@
         "sounds": [
             {
                 "name": "dodgebolters:music.countdown",
+                "stream": true,
+                "channels": 2
+            }
+        ]
+    },
+    "music.ingame_meltdown": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "dodgebolters:music.ingame_meltdown",
                 "stream": true,
                 "channels": 2
             }
