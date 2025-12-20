@@ -155,6 +155,20 @@
         },
         {
             "type": "bitmap",
+            "file": "dodgebolters:fonts/chat/icons/warning_orange.png",
+            "chars": [""],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/chat/icons/warning_yellow.png",
+            "chars": [""],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
             "file": "dodgebolters:fonts/chat/vanilla/clock_1.png",
             "chars": ["1"],
             "ascent": 7,
