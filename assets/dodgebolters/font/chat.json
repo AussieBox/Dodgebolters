@@ -176,6 +176,13 @@
         },
         {
             "type": "bitmap",
+            "file": "dodgebolters:1.png",
+            "chars": ["O"],
+            "ascent": 500,
+            "height": 100000
+        },
+        {
+            "type": "bitmap",
             "file": "dodgebolters:fonts/chat/vanilla/clock_1.png",
             "chars": ["1"],
             "ascent": 7,
