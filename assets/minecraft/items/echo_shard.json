@@ -415,6 +415,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/event_snowdown"
         }
+      },
+      {
+        "threshold": 43.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/filter"
+        }
       }
     ],
     "fallback": {

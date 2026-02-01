@@ -95,6 +95,15 @@
             ],
             "ascent": 26,
             "height": 26
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/header/cosmetics.png",
+            "chars": [
+                "o"
+            ],
+            "ascent": 26,
+            "height": 26
         }
     ]
 }
