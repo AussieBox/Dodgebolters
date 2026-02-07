@@ -1,0 +1,59 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/common.png",
+            "chars": ["1"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/uncommon.png",
+            "chars": ["2"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/rare.png",
+            "chars": ["3"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/epic.png",
+            "chars": ["4"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/legendary.png",
+            "chars": ["5"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/mythic.png",
+            "chars": ["6"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/prismatic.png",
+            "chars": ["7"],
+            "ascent": 7,
+            "height": 8
+        }
+    ]
+}
