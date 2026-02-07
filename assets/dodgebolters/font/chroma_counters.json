@@ -8,6 +8,13 @@
         },
         {
             "type": "bitmap",
+            "file": "dodgebolters:fonts/tooltip/chroma_counters/empty.png",
+            "chars": ["0"],
+            "ascent": 7,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
             "file": "dodgebolters:fonts/tooltip/chroma_counters/common.png",
             "chars": ["1"],
             "ascent": 7,
