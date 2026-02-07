@@ -436,6 +436,27 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/bow_skin_empty"
         }
+      },
+      {
+        "threshold": 46.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/view"
+        }
+      },
+      {
+        "threshold": 47.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/view_pressed"
+        }
+      },
+      {
+        "threshold": 48.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/buttons/view_gray"
+        }
       }
     ],
     "fallback": {

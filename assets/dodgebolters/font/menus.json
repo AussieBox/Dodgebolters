@@ -131,6 +131,20 @@
             "chars": [""],
             "ascent": 5,
             "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/select_chroma_page.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
+        },
+        {
+            "type": "bitmap",
+            "file": "dodgebolters:fonts/menus/body/select_chroma.png",
+            "chars": [""],
+            "ascent": 5,
+            "height": 127
         }
     ]
 }
