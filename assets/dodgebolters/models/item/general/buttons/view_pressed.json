@@ -1,7 +1,28 @@
 {
-    "parent": "dodgebolters:item/general/parent/54x18_button",
-    "textures": {
-      "texture": "dodgebolters:item/general/buttons/view_pressed",
-      "particle": "dodgebolters:item/general/buttons/view_pressed"
-    }
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "dodgebolters:item/general/buttons/view_pressed",
+		"texture": "dodgebolters:item/general/buttons/view_pressed"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 15.9375],
+			"to": [32, 32, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_lefthand": {
+			"scale": [0.0001, 0.0001, 0.0001]
+		},
+		"gui": {
+			"translation": [-40, -21, 0],
+			"scale": [1.333, 1.333, 1]
+		}
+	}
+}

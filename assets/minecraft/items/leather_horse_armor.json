@@ -392,6 +392,19 @@
               }
            ]
         }
+      },
+      {
+        "threshold": 1005.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/color",
+          "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+           ]
+        }
       }
     ],
     "fallback": {
