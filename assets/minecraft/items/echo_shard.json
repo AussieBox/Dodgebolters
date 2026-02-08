@@ -457,6 +457,62 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/buttons/view_gray"
         }
+      },
+      {
+        "threshold": 49.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_gray"
+        }
+      },
+      {
+        "threshold": 50.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_common"
+        }
+      },
+      {
+        "threshold": 51.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_uncommon"
+        }
+      },
+      {
+        "threshold": 52.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_rare"
+        }
+      },
+      {
+        "threshold": 53.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_epic"
+        }
+      },
+      {
+        "threshold": 54.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_legendary"
+        }
+      },
+      {
+        "threshold": 55.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_mythic"
+        }
+      },
+      {
+        "threshold": 56.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/chroma_bucket_prismatic"
+        }
       }
     ],
     "fallback": {
