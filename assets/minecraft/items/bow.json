@@ -9,7 +9,7 @@
             "type": "minecraft:condition",
             "on_false": {
             "type": "minecraft:model",
-            "model": "dodgebolters:item/cosmetics/bow_skins/black_hole/normal"
+            "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow"
             },
             "on_true": {
             "type": "minecraft:range_dispatch",
@@ -17,21 +17,57 @@
                 {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dodgebolters:item/cosmetics/bow_skins/black_hole/pulling_1"
+                    "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_1"
                 },
                 "threshold": 0.65
                 },
                 {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dodgebolters:item/cosmetics/bow_skins/black_hole/pulling_2"
+                    "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_2"
                 },
                 "threshold": 0.9
                 }
             ],
             "fallback": {
                 "type": "minecraft:model",
-                "model": "dodgebolters:item/cosmetics/bow_skins/black_hole/pulling_0"
+                "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_0"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+            "type": "minecraft:condition",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/brow/bow"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "entries": [
+                {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dodgebolters:item/cosmetics/bow_skins/brow/bow_pulling_1"
+                },
+                "threshold": 0.65
+                },
+                {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dodgebolters:item/cosmetics/bow_skins/brow/bow_pulling_2"
+                },
+                "threshold": 0.9
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/brow/bow_pulling_0"
             },
             "property": "minecraft:use_duration",
             "scale": 0.05

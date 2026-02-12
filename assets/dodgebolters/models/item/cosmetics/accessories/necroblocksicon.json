@@ -3,13 +3,13 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_cube_4",
-		"1": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_cube_1",
-		"2": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_cube_2",
-		"3": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_cube_3",
-		"4": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_book",
-		"5": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_writing",
-		"particle": "dodgebolters:item/cosmetics/accessories/tome_of_darkness/tome_cube_4"
+		"0": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_cube_4",
+		"1": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_cube_1",
+		"2": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_cube_2",
+		"3": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_cube_3",
+		"4": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_book",
+		"5": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_writing",
+		"particle": "dodgebolters:item/cosmetics/accessories/necroblocksicon/tome_cube_4"
 	},
 	"elements": [
 		{

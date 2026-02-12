@@ -7,7 +7,7 @@
         "threshold": 1.0,
         "model": {
           "type": "minecraft:model",
-          "model": "dodgebolters:item/cosmetics/accessories/tome_of_darkness",
+          "model": "dodgebolters:item/cosmetics/accessories/necroblocksicon",
           "tints": [
               {
                 "type": "minecraft:firework",
@@ -34,6 +34,19 @@
         "model": {
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/moon_staff",
+          "tints": [
+              {
+                "type": "minecraft:firework",
+                "default": 12713979
+              }
+           ]
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/circuitweaver_plushie",
           "tints": [
               {
                 "type": "minecraft:firework",
