@@ -1,5 +1,5 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
     "entries": [
@@ -13,10 +13,7 @@
                 "type": "minecraft:model",
                 "model": "dodgebolters:item/cosmetics/bow_skins/singularity/arrow"
               },
-              "when": [
-                "none",
-                "fixed"
-              ]
+              "when": ["none", "fixed"]
             }
           ],
           "fallback": {
@@ -36,10 +33,7 @@
                 "type": "minecraft:model",
                 "model": "dodgebolters:item/cosmetics/bow_skins/brow/arrow"
               },
-              "when": [
-                "none",
-                "fixed"
-              ]
+              "when": ["none", "fixed"]
             }
           ],
           "fallback": {

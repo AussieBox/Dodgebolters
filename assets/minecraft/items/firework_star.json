@@ -1,5 +1,5 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
     "entries": [
@@ -9,11 +9,11 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/necroblocksicon",
           "tints": [
-              {
-                "type": "minecraft:firework",
-                "default": 16731726
-              }
-           ]
+            {
+              "type": "minecraft:firework",
+              "default": 16731726
+            }
+          ]
         }
       },
       {
@@ -22,11 +22,11 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/expendables_lantern",
           "tints": [
-              {
-                "type": "minecraft:firework",
-                "default": 16776674
-              }
-           ]
+            {
+              "type": "minecraft:firework",
+              "default": 16776674
+            }
+          ]
         }
       },
       {
@@ -35,11 +35,11 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/moon_staff",
           "tints": [
-              {
-                "type": "minecraft:firework",
-                "default": 12713979
-              }
-           ]
+            {
+              "type": "minecraft:firework",
+              "default": 12713979
+            }
+          ]
         }
       },
       {
@@ -48,11 +48,11 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/circuitweaver_plushie",
           "tints": [
-              {
-                "type": "minecraft:firework",
-                "default": 12713979
-              }
-           ]
+            {
+              "type": "minecraft:firework",
+              "default": 12713979
+            }
+          ]
         }
       }
     ],
@@ -60,15 +60,15 @@
       "type": "minecraft:model",
       "model": "item/firework_star",
       "tints": [
-              {
-                "type": "minecraft:constant",
-                "value": -1
-              },
-              {
-                "type": "minecraft:firework",
-                "default": -7697782
-              }
-         ]
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:firework",
+          "default": -7697782
+        }
+      ]
     }
   },
   "oversized_in_gui": true

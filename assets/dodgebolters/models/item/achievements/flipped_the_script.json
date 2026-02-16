@@ -1,8 +1,8 @@
 {
-    "parent": "dodgebolters:item/achievements/parent/base",
-    "textures": {
-      "border": "dodgebolters:item/achievements/parent/border",
-      "badge": "dodgebolters:item/achievements/flipped_the_script",
-      "particle": "dodgebolters:item/achievements/flipped_the_script"
-    }
+  "parent": "dodgebolters:item/achievements/parent/base",
+  "textures": {
+    "border": "dodgebolters:item/achievements/parent/border",
+    "badge": "dodgebolters:item/achievements/flipped_the_script",
+    "particle": "dodgebolters:item/achievements/flipped_the_script"
   }
+}

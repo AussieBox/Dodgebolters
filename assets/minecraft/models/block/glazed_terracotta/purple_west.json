@@ -1,1 +1,4 @@
-{"textures":{"all":"block/glazed_terracotta/purple_west"},"parent":"block/cube_all"}
+{
+  "textures": { "all": "block/glazed_terracotta/purple_west" },
+  "parent": "block/cube_all"
+}

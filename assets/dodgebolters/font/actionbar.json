@@ -1,24 +1,24 @@
 {
-    "providers": [
-        {
-            "type": "space",
-            "advances": {
-                " ": 4
-            }
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/actionbar/coins.png",
-            "chars": ["c"],
-            "ascent": -22,
-            "height": 14
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/actionbar/crowns.png",
-            "chars": ["C"],
-            "ascent": -22,
-            "height": 14
-        }
-    ]
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/actionbar/coins.png",
+      "chars": ["c"],
+      "ascent": -22,
+      "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/actionbar/crowns.png",
+      "chars": ["C"],
+      "ascent": -22,
+      "height": 14
+    }
+  ]
 }

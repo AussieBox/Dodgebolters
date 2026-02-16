@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "dodgebolters:item/general/settings_icon"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dodgebolters:item/general/settings_icon"
   }
+}

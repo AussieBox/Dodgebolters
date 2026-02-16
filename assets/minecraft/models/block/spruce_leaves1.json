@@ -1,1 +1,4 @@
-{"parent":"betterleaves:block/leaves1","textures":{"all":"minecraft:block/spruce_leaves"}}
+{
+  "parent": "betterleaves:block/leaves1",
+  "textures": { "all": "minecraft:block/spruce_leaves" }
+}

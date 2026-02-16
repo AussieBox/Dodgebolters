@@ -1,115 +1,115 @@
 {
-    "providers": [
-        {
-            "type": "space",
-            "advances": {
-                " ": 4
-            }
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/keys/left_click.png",
-            "chars": ["L"],
-            "ascent": 7,
-            "height": 7
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/keys/right_click.png",
-            "chars": ["R"],
-            "ascent": 7,
-            "height": 7
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/keys/shift.png",
-            "chars": ["S"],
-            "ascent": 7,
-            "height": 7
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/keys/and.png",
-            "chars": ["A"],
-            "ascent": 7,
-            "height": 7
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/unranked.png",
-            "chars": ["0"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/common.png",
-            "chars": ["1"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/uncommon.png",
-            "chars": ["2"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/rare.png",
-            "chars": ["3"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/epic.png",
-            "chars": ["4"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/legendary.png",
-            "chars": ["5"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/mythic.png",
-            "chars": ["6"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/prismatic.png",
-            "chars": ["7"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/rarities/limited.png",
-            "chars": ["l"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/cosmetics/accessory.png",
-            "chars": ["a"],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/tooltip/cosmetics/bow_skin.png",
-            "chars": ["b"],
-            "ascent": 8,
-            "height": 9
-        }
-    ]
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/keys/left_click.png",
+      "chars": ["L"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/keys/right_click.png",
+      "chars": ["R"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/keys/shift.png",
+      "chars": ["S"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/keys/and.png",
+      "chars": ["A"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/unranked.png",
+      "chars": ["0"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/common.png",
+      "chars": ["1"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/uncommon.png",
+      "chars": ["2"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/rare.png",
+      "chars": ["3"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/epic.png",
+      "chars": ["4"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/legendary.png",
+      "chars": ["5"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/mythic.png",
+      "chars": ["6"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/prismatic.png",
+      "chars": ["7"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/rarities/limited.png",
+      "chars": ["l"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/cosmetics/accessory.png",
+      "chars": ["a"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/cosmetics/bow_skin.png",
+      "chars": ["b"],
+      "ascent": 8,
+      "height": 9
+    }
+  ]
 }

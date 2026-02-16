@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "dodgebolters:item/pouch/coin_booster_2"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dodgebolters:item/pouch/coin_booster_2"
   }
+}

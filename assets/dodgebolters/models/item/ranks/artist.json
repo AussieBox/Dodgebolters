@@ -1,7 +1,7 @@
 {
-    "parent": "dodgebolters:item/general/parent/ranks",
-    "textures": {
-        "rank": "dodgebolters:item/ranks/artist",
-        "particle": "dodgebolters:item/ranks/artist"
-    }
+  "parent": "dodgebolters:item/general/parent/ranks",
+  "textures": {
+    "rank": "dodgebolters:item/ranks/artist",
+    "particle": "dodgebolters:item/ranks/artist"
+  }
 }

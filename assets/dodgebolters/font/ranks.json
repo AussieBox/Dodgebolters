@@ -1,87 +1,87 @@
 {
-    "providers": [
-        {
-            "type": "space",
-            "advances": {
-                " ": 4
-            }
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/owner.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/mod.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/mod_full.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/dev.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/dev_full.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/tester.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/player.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/artist.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/contributor.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/contributor_full.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/ranks/noxcrew.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        }
-    ]
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/owner.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/mod.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/mod_full.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/dev.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/dev_full.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/tester.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/player.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/artist.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/contributor.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/contributor_full.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/ranks/noxcrew.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    }
+  ]
 }

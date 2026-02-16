@@ -1,7 +1,7 @@
 {
-    "parent": "dodgebolters:item/general/parent/toggle",
-    "textures": {
-      "texture": "dodgebolters:item/general/toggles/toggle_off",
-      "particle": "dodgebolters:item/general/toggles/toggle_off"
-    }
+  "parent": "dodgebolters:item/general/parent/toggle",
+  "textures": {
+    "texture": "dodgebolters:item/general/toggles/toggle_off",
+    "particle": "dodgebolters:item/general/toggles/toggle_off"
   }
+}

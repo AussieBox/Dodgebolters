@@ -1,241 +1,241 @@
 {
-    "providers": [
-        {
-            "type": "space",
-            "advances": {
-                " ": 4
-            }
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/achievements.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/npc.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/coins.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/crowns.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/points/empty.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/points/full.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/kills.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/bossbar/bossbar.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 31
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/warning_red.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/queue_unqueued.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/queue_queued.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/information.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/elimination.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/red_team.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/blue_team.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/warning_blue.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/warning_purple.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/gg.png",
-            "chars": [""],
-            "ascent": 8,
-            "height": 9
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/shop.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/bossbar/bossbar_short.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 31
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/snowflake.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/warning_orange.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/warning_yellow.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/icons/cosmetics.png",
-            "chars": [""],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:1.png",
-            "chars": ["O"],
-            "ascent": 500,
-            "height": 100000
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_1.png",
-            "chars": ["1"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_2.png",
-            "chars": ["2"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_3.png",
-            "chars": ["3"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_4.png",
-            "chars": ["4"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_5.png",
-            "chars": ["5"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_6.png",
-            "chars": ["6"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_7.png",
-            "chars": ["7"],
-            "ascent": 7,
-            "height": 8
-        },
-        {
-            "type": "bitmap",
-            "file": "dodgebolters:fonts/chat/vanilla/clock_8.png",
-            "chars": ["8"],
-            "ascent": 7,
-            "height": 8
-        }
-    ]
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/achievements.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/npc.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/coins.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/crowns.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/points/empty.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/points/full.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/kills.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/bossbar/bossbar.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 31
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/warning_red.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/queue_unqueued.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/queue_queued.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/information.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/elimination.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/red_team.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/blue_team.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/warning_blue.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/warning_purple.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/gg.png",
+      "chars": [""],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/shop.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/bossbar/bossbar_short.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 31
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/snowflake.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/warning_orange.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/warning_yellow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/cosmetics.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:1.png",
+      "chars": ["O"],
+      "ascent": 500,
+      "height": 100000
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_1.png",
+      "chars": ["1"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_2.png",
+      "chars": ["2"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_3.png",
+      "chars": ["3"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_4.png",
+      "chars": ["4"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_5.png",
+      "chars": ["5"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_6.png",
+      "chars": ["6"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_7.png",
+      "chars": ["7"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/vanilla/clock_8.png",
+      "chars": ["8"],
+      "ascent": 7,
+      "height": 8
+    }
+  ]
 }

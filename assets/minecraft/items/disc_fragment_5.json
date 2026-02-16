@@ -1,5 +1,5 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
     "entries": [
@@ -13,11 +13,7 @@
                 "type": "minecraft:model",
                 "model": "dodgebolters:item/general/unqueued"
               },
-              "when": [
-                "gui",
-                "ground",
-                "fixed"
-              ]
+              "when": ["gui", "ground", "fixed"]
             }
           ],
           "fallback": {
@@ -37,11 +33,7 @@
                 "type": "minecraft:model",
                 "model": "dodgebolters:item/general/queued"
               },
-              "when": [
-                "gui",
-                "ground",
-                "fixed"
-              ]
+              "when": ["gui", "ground", "fixed"]
             }
           ],
           "fallback": {
@@ -54,7 +46,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "item/disc_fragment_5"	
+      "model": "item/disc_fragment_5"
     }
   },
   "oversized_in_gui": true

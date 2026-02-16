@@ -1,7 +1,7 @@
 {
-    "parent": "dodgebolters:item/general/parent/ranks",
-    "textures": {
-        "rank": "dodgebolters:item/ranks/owner",
-        "particle": "dodgebolters:item/ranks/owner"
-    }
+  "parent": "dodgebolters:item/general/parent/ranks",
+  "textures": {
+    "rank": "dodgebolters:item/ranks/owner",
+    "particle": "dodgebolters:item/ranks/owner"
+  }
 }
