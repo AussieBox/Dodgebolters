@@ -172,7 +172,7 @@
 			"to": [6.55, 16.56798, 11.00976],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 14.00104]},
 			"faces": {
-				"north": {"uv": [6.5, 0, 6.75, 0.25], "rotation": 270, "texture": "#missing"},
+				"north": {"uv": [6.5, 0, 6.75, 0.25], "rotation": 270, "texture": "#4"},
 				"east": {"uv": [6.5, 0, 6.75, 0.25], "rotation": 270, "texture": "#4"},
 				"west": {"uv": [6.5, 0, 6.75, 0.25], "rotation": 270, "texture": "#4"},
 				"up": {"uv": [6.5, 0, 6.75, 0.25], "rotation": 270, "texture": "#4"},
