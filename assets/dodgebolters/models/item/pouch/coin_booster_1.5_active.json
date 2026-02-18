@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dodgebolters:item/pouch/coin_booster_1.5_active"
+  }
+}

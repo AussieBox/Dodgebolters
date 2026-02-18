@@ -485,6 +485,27 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/pouch/chroma_bucket_prismatic"
         }
+      },
+      {
+        "threshold": 57.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/coin_booster_1.5_active"
+        }
+      },
+      {
+        "threshold": 58.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/coin_booster_2_active"
+        }
+      },
+      {
+        "threshold": 59.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/crown_booster_2_active"
+        }
       }
     ],
     "fallback": {
