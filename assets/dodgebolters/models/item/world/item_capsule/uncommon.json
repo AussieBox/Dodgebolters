@@ -1,0 +1,6 @@
+{
+  "parent": "dodgebolters:item/world/item_capsule/common",
+  "textures": {
+    "1": "dodgebolters:item/world/item_capsule/uncommon"
+  }
+}

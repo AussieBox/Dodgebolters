@@ -506,6 +506,20 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/pouch/crown_booster_2_active"
         }
+      },
+      {
+        "threshold": 60.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/focus_mode_off"
+        }
+      },
+      {
+        "threshold": 61.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/focus_mode_on"
+        }
       }
     ],
     "fallback": {
