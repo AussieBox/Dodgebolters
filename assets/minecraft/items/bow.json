@@ -148,7 +148,7 @@
         }
       },
       {
-        "threshold": 4.0,
+        "threshold": 5.0,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -184,7 +184,7 @@
         }
       },
       {
-        "threshold": 5.0,
+        "threshold": 6.0,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -220,7 +220,7 @@
         }
       },
       {
-        "threshold": 6.0,
+        "threshold": 7.0,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -256,7 +256,7 @@
         }
       },
       {
-        "threshold": 7.0,
+        "threshold": 8.0,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -292,7 +292,7 @@
         }
       },
       {
-        "threshold": 8.0,
+        "threshold": 9.0,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
