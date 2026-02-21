@@ -520,6 +520,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/general/focus_mode_on"
         }
+      },
+      {
+        "threshold": 62.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/pouch/joker_card"
+        }
       }
     ],
     "fallback": {
