@@ -1,0 +1,7 @@
+{
+  "parent": "dodgebolters:item/general/parent/ranks",
+  "textures": {
+    "rank": "dodgebolters:item/ranks/contributor",
+    "particle": "dodgebolters:item/ranks/contributor"
+  }
+}
