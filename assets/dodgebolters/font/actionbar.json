@@ -24,7 +24,7 @@
       "type": "bitmap",
       "file": "dodgebolters:logo/red_long.png",
       "chars": ["L"],
-      "ascent": 4,
+      "ascent": 20,
       "height": 18.5
     }
   ]
