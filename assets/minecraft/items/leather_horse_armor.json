@@ -342,6 +342,32 @@
         }
       },
       {
+        "threshold": 27.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/quickdraw",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 26.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/achievements/shrapnel",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
         "threshold": 1000.0,
         "model": {
           "type": "minecraft:model",
