@@ -2,7 +2,7 @@
   "parent": "dodgebolters:item/achievements/parent/base",
   "textures": {
     "border": "dodgebolters:item/achievements/parent/border",
-    "badge": "dodgebolters:item/achievements/quickdraw",
-    "particle": "dodgebolters:item/achievements/quickdraw"
+    "badge": "dodgebolters:item/achievements/shrapnel",
+    "particle": "dodgebolters:item/achievements/shrapnel"
   }
 }
