@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/arrow_gold_gui"
+  }
+}

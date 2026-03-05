@@ -1,0 +1,6 @@
+{
+  "parent": "dodgebolters:item/cosmetics/parent/vanilla_arrow",
+  "textures": {
+    "texture": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/arrow_gold"
+  }
+}
