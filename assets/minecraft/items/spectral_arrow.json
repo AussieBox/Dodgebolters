@@ -1,0 +1,113 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/singularity/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/singularity/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/brow/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/brow/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 7.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/bronze/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/bronze/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 8.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/silver/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/silver/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 9.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/gold/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/meltdown_medallion/gold/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/spectral_arrow"
+    }
+  },
+  "oversized_in_gui": true
+}
