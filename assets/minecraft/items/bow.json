@@ -4,12 +4,18 @@
     "property": "minecraft:custom_model_data",
     "entries": [
       {
-        "threshold": 1.0,
+        "threshold": 1,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
             "type": "minecraft:model",
-            "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow"
+            "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/bow",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 0
+              }
+            ]
           },
           "on_true": {
             "type": "minecraft:range_dispatch",
@@ -17,21 +23,39 @@
               {
                 "model": {
                   "type": "minecraft:model",
-                  "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_1"
+                  "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/bow_pulling_1",
+                  "tints": [
+                    {
+                      "type": "minecraft:custom_model_data",
+                      "default": 0
+                    }
+                  ]
                 },
                 "threshold": 0.65
               },
               {
                 "model": {
                   "type": "minecraft:model",
-                  "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_2"
+                  "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/bow_pulling_2",
+                  "tints": [
+                    {
+                      "type": "minecraft:custom_model_data",
+                      "default": 0
+                    }
+                  ]
                 },
                 "threshold": 0.9
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "dodgebolters:item/cosmetics/bow_skins/singularity/bow_pulling_0"
+              "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/bow_pulling_0",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "default": 0
+                }
+              ]
             },
             "property": "minecraft:use_duration",
             "scale": 0.05
@@ -40,7 +64,7 @@
         }
       },
       {
-        "threshold": 2.0,
+        "threshold": 2,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -76,7 +100,7 @@
         }
       },
       {
-        "threshold": 3.0,
+        "threshold": 3,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -112,7 +136,7 @@
         }
       },
       {
-        "threshold": 4.0,
+        "threshold": 4,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -148,7 +172,7 @@
         }
       },
       {
-        "threshold": 5.0,
+        "threshold": 5,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -184,7 +208,7 @@
         }
       },
       {
-        "threshold": 6.0,
+        "threshold": 6,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -220,7 +244,7 @@
         }
       },
       {
-        "threshold": 7.0,
+        "threshold": 7,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -256,7 +280,7 @@
         }
       },
       {
-        "threshold": 8.0,
+        "threshold": 8,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
@@ -292,7 +316,7 @@
         }
       },
       {
-        "threshold": 9.0,
+        "threshold": 9,
         "model": {
           "type": "minecraft:condition",
           "on_false": {
