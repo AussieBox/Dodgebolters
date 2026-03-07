@@ -61,6 +61,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/accessories/stick"
         }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/xanphia_plushie"
+        }
       }
     ],
     "fallback": {
