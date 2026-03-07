@@ -11,14 +11,14 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "dodgebolters:item/cosmetics/bow_skins/singularity/arrow"
+                "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow"
               },
               "when": ["none", "fixed"]
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "dodgebolters:item/cosmetics/bow_skins/singularity/arrow_gui"
+            "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
           },
           "property": "minecraft:display_context"
         }

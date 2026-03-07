@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/necroblocksicon",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/expendables_lantern",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/moon_staff",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/circuitweaver_plushie",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/accessories/stick"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/paper"
+    }
+  },
+  "oversized_in_gui": true
+}
