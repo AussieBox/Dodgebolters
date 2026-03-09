@@ -18,7 +18,13 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
+            "model": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 0
+              }
+            ]
           },
           "property": "minecraft:display_context"
         }
@@ -39,6 +45,86 @@
           "fallback": {
             "type": "minecraft:model",
             "model": "dodgebolters:item/cosmetics/bow_skins/brow/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/blue/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/blue/arrow"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/green/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/green/arrow"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/red/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/red/arrow"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/prism/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/cybercaster/prism/arrow"
           },
           "property": "minecraft:display_context"
         }

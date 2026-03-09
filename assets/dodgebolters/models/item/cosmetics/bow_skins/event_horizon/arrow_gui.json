@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
+    "layer0": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui_tint",
+    "layer1": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
   }
 }

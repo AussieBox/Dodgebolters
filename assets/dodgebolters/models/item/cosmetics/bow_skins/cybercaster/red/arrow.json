@@ -1,0 +1,6 @@
+{
+  "parent": "dodgebolters:item/cosmetics/parent/laser_beam",
+  "textures": {
+    "texture": "dodgebolters:item/cosmetics/bow_skins/cybercaster/red/arrow"
+  }
+}
