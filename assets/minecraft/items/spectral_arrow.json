@@ -188,6 +188,26 @@
           },
           "property": "minecraft:display_context"
         }
+      },
+      {
+        "threshold": 10.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/crossbow/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/arrow"
+          },
+          "property": "minecraft:display_context"
+        }
       }
     ],
     "fallback": {
