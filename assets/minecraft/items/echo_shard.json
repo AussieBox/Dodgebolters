@@ -527,6 +527,13 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/pouch/joker_card"
         }
+      },
+      {
+        "threshold": 63.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/general/hat_empty"
+        }
       }
     ],
     "fallback": {

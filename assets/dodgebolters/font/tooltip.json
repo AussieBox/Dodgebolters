@@ -110,6 +110,13 @@
       "chars": ["b"],
       "ascent": 8,
       "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/cosmetics/hat.png",
+      "chars": ["h"],
+      "ascent": 8,
+      "height": 9
     }
   ]
 }
