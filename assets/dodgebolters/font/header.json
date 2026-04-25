@@ -82,6 +82,13 @@
       "chars": ["o"],
       "ascent": 26,
       "height": 26
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/header/shards.png",
+      "chars": ["P"],
+      "ascent": 26,
+      "height": 26
     }
   ]
 }

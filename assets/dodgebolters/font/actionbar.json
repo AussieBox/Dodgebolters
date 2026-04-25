@@ -26,6 +26,13 @@
       "chars": ["L"],
       "ascent": 17,
       "height": 18.5
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/actionbar/shards.png",
+      "chars": ["s"],
+      "ascent": -22,
+      "height": 14
     }
   ]
 }

@@ -176,6 +176,13 @@
     },
     {
       "type": "bitmap",
+      "file": "dodgebolters:fonts/chat/icons/shards.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
       "file": "dodgebolters:1.png",
       "chars": ["O"],
       "ascent": 500,
