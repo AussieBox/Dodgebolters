@@ -288,23 +288,27 @@
 		{
 			"name": "all",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
 				{
 					"name": "upper",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "left_brow",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [1, 2, 3]
 						},
 						{
 							"name": "right_brow",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [4, 5, 6]
 						},
@@ -318,6 +322,7 @@
 				{
 					"name": "lower",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [12, 13, 14, 15, 16]
 				}
@@ -326,6 +331,7 @@
 		{
 			"name": "bow",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [17, 18]
 		}

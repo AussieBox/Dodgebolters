@@ -1,7 +1,9 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui_tint",
-    "layer1": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui_tint",
+		"layer1": "dodgebolters:item/cosmetics/bow_skins/event_horizon/arrow_gui"
+	}
 }
