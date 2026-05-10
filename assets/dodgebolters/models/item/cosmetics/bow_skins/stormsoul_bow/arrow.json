@@ -1,6 +1,6 @@
 {
   "parent": "dodgebolters:item/cosmetics/parent/3d_arrow",
   "textures": {
-    "layer0": "dodgebolters:item/cosmetics/bow_skins/brow/arrow"
+    "layer0": "dodgebolters:item/cosmetics/bow_skins/stormsoul_bow/arrow"
   }
 }
