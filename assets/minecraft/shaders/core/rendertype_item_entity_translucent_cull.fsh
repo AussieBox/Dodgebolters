@@ -1,29 +1,48 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
-#moj_import <minecraft:fog.glsl>
-#moj_import <minecraft:dynamictransforms.glsl>
+#include <minecraft:fog.glsl>
+#include <minecraft:dynamictransforms.glsl>
+#include <minecraft:oit.glsl>
 
 uniform sampler2D Sampler0;
 
-in float sphericalVertexDistance;
-in float cylindricalVertexDistance;
-in vec4 vertexColor;
-in vec2 texCoord0;
-in vec2 texCoord1;
-in vec4 tintColor;
+layout(location = 0) in float sphericalVertexDistance;
+layout(location = 1) in float cylindricalVertexDistance;
+layout(location = 2) in vec4 vertexColor;
+layout(location = 3) in vec2 texCoord0;
+layout(location = 4) in vec2 texCoord1;
+layout(location = 5) in vec4 tintColor;
 
-out vec4 fragColor;
+#ifdef OIT_ALPHA_ONLY
+layout(location = 0) out float outAlpha;
+#elif defined(OIT_ACCUMULATE)
+layout(location = 0) out vec4 outColor;
+layout(location = 1) out float outTransmittance;
+#elif !defined(OIT_DEPTH_BOUNDS)
+layout(location = 0) out vec4 fragColor;
+#endif
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
     // 204 / 255
     if (color.a == 0.8) {
-        fragColor = vec4(color.rgb, 1.0) * tintColor;
-        return;
+        color = vec4(color.rgb, 1.0) * tintColor;
+    } else {
+        color *= vertexColor * ColorModulator;
+        if (color.a < 0.1) {
+            discard;
+        }
+        color = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
     }
-    color *= vertexColor * ColorModulator;
-    if (color.a < 0.1) {
-        discard;
-    }
-    fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+
+#ifdef OIT_ALPHA_ONLY
+    outAlpha = color.a;
+#elif defined(OIT_ACCUMULATE)
+    oit_accumulate(color, outColor, outTransmittance);
+#elif defined(OIT_DEPTH_BOUNDS)
+    oit_depth_bounds(color.a);
+#else
+    fragColor = color;
+#endif
 }

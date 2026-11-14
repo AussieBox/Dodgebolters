@@ -1,7 +1,9 @@
 {
   "pack": {
-    "description": "§6[1.21.8+] §cDodge§9Bolt§f(ers) Required Resources",
-    "pack_format": 64
+    "description": "§6[26.3+] §cDodge§9Bolt§f(ers) Required Resources",
+    "pack_format": 97,
+    "min_format": 0,
+    "max_format": 97
   },
   "overlays": {
     "entries": []
