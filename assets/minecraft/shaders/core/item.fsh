@@ -1,48 +1,80 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
 
+#ifdef GLINT
+#include <minecraft:globals.glsl>
+#endif
 #include <minecraft:fog.glsl>
 #include <minecraft:dynamictransforms.glsl>
 #include <minecraft:oit.glsl>
 
 uniform sampler2D Sampler0;
 
+#ifdef GLINT
+uniform sampler2D GlintSampler;
+#endif
+
+#ifndef OIT_ALPHA_ONLY
 layout(location = 0) in float sphericalVertexDistance;
 layout(location = 1) in float cylindricalVertexDistance;
+#endif
 layout(location = 2) in vec4 vertexColor;
-layout(location = 3) in vec2 texCoord0;
-layout(location = 4) in vec2 texCoord1;
-layout(location = 5) in vec4 tintColor;
+#ifndef OIT_ALPHA_ONLY
+layout(location = 3) in vec4 lightMapColor;
+layout(location = 4) in vec4 overlayColor;
+#endif
+layout(location = 5) in vec2 texCoord0;
+#ifdef GLINT
+layout(location = 6) in vec2 texCoordGlint;
+#endif
+layout(location = 7) in vec4 tintColor;
 
-#ifdef OIT_ALPHA_ONLY
-layout(location = 0) out float outAlpha;
-#elif defined(OIT_ACCUMULATE)
-layout(location = 0) out vec4 outColor;
-layout(location = 1) out float outTransmittance;
-#elif !defined(OIT_DEPTH_BOUNDS)
+#ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
+#endif
+
+#ifndef OIT_ALPHA_ONLY
+vec4 calculateFinalColor(vec4 color) {
+    color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+    color *= lightMapColor;
+
+    #ifdef GLINT
+    vec4 glintColor = GlintAlpha * texture(GlintSampler, texCoordGlint);// Glint color modulator?
+    // Matches BlendFuntion.GLINT
+    color.rgb += glintColor.rgb * glintColor.rgb;
+    #endif
+
+    #ifdef OIT_ACCUMULATE
+    color = sampleColorForAccumulation(color);
+    vec4 fogColor = vec4(FogColor.rgb * color.a, FogColor.a);
+    #else
+    vec4 fogColor = FogColor;
+    #endif
+
+    return apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, fogColor);
+}
 #endif
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-    // 204 / 255
-    if (color.a == 0.8) {
-        color = vec4(color.rgb, 1.0) * tintColor;
-    } else {
-        color *= vertexColor * ColorModulator;
-        if (color.a < 0.1) {
-            discard;
-        }
-        color = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+    #ifdef ALPHA_CUTOUT
+    if (color.a < ALPHA_CUTOUT) {
+        discard;
     }
+    #endif
 
-#ifdef OIT_ALPHA_ONLY
-    outAlpha = color.a;
-#elif defined(OIT_ACCUMULATE)
-    oit_accumulate(color, outColor, outTransmittance);
-#elif defined(OIT_DEPTH_BOUNDS)
-    oit_depth_bounds(color.a);
-#else
-    fragColor = color;
-#endif
+    color *= vertexColor * ColorModulator;
+
+    #ifdef GLINT
+    color.a = max(color.a, GlintAlpha);
+    #endif
+
+    #ifdef OIT_ALPHA_ONLY
+    executeAlphaOnlyPhase(gl_FragCoord.z, color.a);
+    #else
+    fragColor = calculateFinalColor(color);
+    if (color.a == 0.8) {
+        fragColor = vec4(color.rgb, 1.0) * tintColor;
+    }
+    #endif
 }
