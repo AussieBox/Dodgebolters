@@ -2,7 +2,11 @@
 #extension GL_ARB_separate_shader_objects : require
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+#if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 #include <minecraft:fog.glsl>
+#include <minecraft:sample_lightmap.glsl>
+#endif
+
 #include <minecraft:sample_lightmap.glsl>
 #endif
 
@@ -13,17 +17,23 @@ layout(location = 0) in vec3 Position;
 layout(location = 1) in vec4 Color;
 layout(location = 2) in vec2 UV0;
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+#if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 layout(location = 3) in ivec2 UV2;
 #endif
+#endif
 
+#if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 uniform sampler2D Sampler2;
 layout(location = 0) out float sphericalVertexDistance;
 layout(location = 1) out float cylindricalVertexDistance;
 #endif
 
+#endif
+
 layout(location = 2) out vec4 vertexColor;
 layout(location = 3) out vec2 texCoord0;
+layout(location = 4) out float forceFullAlpha;
 layout(location = 4) out float forceFullAlpha;
 
 void main() {
@@ -51,7 +61,7 @@ void main() {
         float alpha = 1.0 - Color.a;
         float curve = 1.0 - pow(1.0 - alpha, 3.0);
         float smoothAlpha = mix(alpha, curve, 0.9); 
-        animationPos.x = mix(Position.x + 5000.0, Position.x, smoothAlpha);
+        animationPos.x = mix(Position.x+5000, Position.x, smoothAlpha);
         vertexColor.a = 1.0;
     }
 

@@ -2,7 +2,10 @@
 #extension GL_ARB_separate_shader_objects : require
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+#if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 #include <minecraft:fog.glsl>
+#endif
+
 #endif
 
 #include <minecraft:dynamictransforms.glsl>
@@ -11,8 +14,11 @@
 uniform sampler2D Sampler0;
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+#if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 layout(location = 0) in float sphericalVertexDistance;
 layout(location = 1) in float cylindricalVertexDistance;
+#endif
+
 #endif
 
 layout(location = 2) in vec4 vertexColor;
@@ -22,6 +28,25 @@ layout(location = 4) flat in float forceFullAlpha;
 #ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
 #endif
+
+vec4 calculateFinalColor(vec4 color) {
+    #ifdef OIT_ACCUMULATE
+    color = sampleColorForAccumulation(color);
+    #endif
+
+    #if !defined(IS_SEE_THROUGH) && !defined(IS_GUI)
+
+    #ifdef OIT_ACCUMULATE
+    vec4 fogColor = vec4(FogColor.rgb * color.a, FogColor.a);
+    #else
+    vec4 fogColor = FogColor;
+    #endif
+
+    color = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, fogColor);
+    #endif
+
+    return color;
+}
 
 vec4 calculateFinalColor(vec4 color) {
     #ifdef OIT_ACCUMULATE
