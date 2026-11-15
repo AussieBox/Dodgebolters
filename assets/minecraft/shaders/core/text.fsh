@@ -2,9 +2,7 @@
 #extension GL_ARB_separate_shader_objects : require
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
-#include <minecraft:fog.glsl>
-#endif
-
+    #include <minecraft:fog.glsl>
 #endif
 
 #include <minecraft:dynamictransforms.glsl>
