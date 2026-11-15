@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dodgebolters:item/cosmetics/bow_skins/ice_bow/bow_pulling0"
+  }
+}

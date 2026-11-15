@@ -248,6 +248,26 @@
           },
           "property": "minecraft:display_context"
         }
+      },
+      {
+        "threshold": 13.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/ice_bow/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/ice_bow/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
       }
     ],
     "fallback": {

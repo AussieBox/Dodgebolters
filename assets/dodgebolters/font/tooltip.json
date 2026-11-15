@@ -117,6 +117,20 @@
       "chars": ["h"],
       "ascent": 8,
       "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/cosmetics/3d.png",
+      "chars": ["D"],
+      "ascent": 8,
+      "height": 9
+    },
+    {
+      "type": "bitmap",
+      "file": "dodgebolters:fonts/tooltip/cosmetics/2d.png",
+      "chars": ["d"],
+      "ascent": 8,
+      "height": 9
     }
   ]
 }
