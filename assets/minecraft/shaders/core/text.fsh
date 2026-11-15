@@ -17,7 +17,7 @@ layout(location = 1) in float cylindricalVertexDistance;
 
 layout(location = 2) in vec4 vertexColor;
 layout(location = 3) in vec2 texCoord0;
-layout(location = 4) in float forceFullAlpha;
+layout(location = 4) flat in float forceFullAlpha;
 
 #ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
@@ -49,11 +49,12 @@ void main() {
     vec4 texColor = texture(Sampler0, texCoord0);
     #endif
 
-    vec4 color = texColor * vertexColor * ColorModulator;
-
-    if (forceFullAlpha > 0.0) {
-        color.a = 1.0;
+    vec4 baseColor = vertexColor;
+    if (forceFullAlpha > 0.5) {
+        baseColor.a = 1.0;
     }
+
+    vec4 color = texColor * baseColor * ColorModulator;
 
     if (color.a < 0.001) {
         discard;
