@@ -61,6 +61,7 @@ void main() {
     vec4 texColor = texture(Sampler0, texCoord0);
     #ifdef ALPHA_CUTOUT
     if (texColor.a < ALPHA_CUTOUT) {
+    if (texColor.a < ALPHA_CUTOUT) {
         discard;
     }
     #endif
