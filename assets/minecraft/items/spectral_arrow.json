@@ -268,6 +268,26 @@
           },
           "property": "minecraft:display_context"
         }
+      },
+      {
+        "threshold": 14.0,
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "dodgebolters:item/cosmetics/bow_skins/timeless/arrow"
+              },
+              "when": ["none", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "dodgebolters:item/cosmetics/bow_skins/timeless/arrow_gui"
+          },
+          "property": "minecraft:display_context"
+        }
       }
     ],
     "fallback": {
