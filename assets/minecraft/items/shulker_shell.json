@@ -115,6 +115,20 @@
           "type": "minecraft:model",
           "model": "dodgebolters:item/cosmetics/hats/mouse"
         }
+      },
+      {
+        "threshold": 12.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/hats/axolotl"
+        }
+      },
+      {
+        "threshold": 13.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "dodgebolters:item/cosmetics/hats/diamond_headband"
+        }
       }
     ],
     "fallback": {
