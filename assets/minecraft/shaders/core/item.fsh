@@ -34,13 +34,15 @@ layout(location = 0) out vec4 fragColor;
 #endif
 
 #ifndef OIT_ALPHA_ONLY
-vec4 calculateFinalColor(vec4 color) {
+vec4 calculateFinalColor(vec4 color, bool isEmissive) {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
-    color *= lightMapColor;
+    
+    if (!isEmissive) {
+        color *= lightMapColor;
+    }
 
     #ifdef GLINT
-    vec4 glintColor = GlintAlpha * texture(GlintSampler, texCoordGlint);// Glint color modulator?
-    // Matches BlendFuntion.GLINT
+    vec4 glintColor = GlintAlpha * texture(GlintSampler, texCoordGlint);
     color.rgb += glintColor.rgb * glintColor.rgb;
     #endif
 
@@ -56,14 +58,20 @@ vec4 calculateFinalColor(vec4 color) {
 #endif
 
 void main() {
-    vec4 color = texture(Sampler0, texCoord0);
+    vec4 texColor = texture(Sampler0, texCoord0);
     #ifdef ALPHA_CUTOUT
-    if (color.a < ALPHA_CUTOUT) {
+    if (texColor.a < ALPHA_CUTOUT) {
         discard;
     }
     #endif
 
-    color *= vertexColor * ColorModulator;
+    bool isEmissive = abs(texColor.a - 0.8) < 0.01;
+
+    vec4 color = texColor * vertexColor * ColorModulator;
+
+    if (isEmissive) {
+        color.a = 1.0;
+    }
 
     #ifdef GLINT
     color.a = max(color.a, GlintAlpha);
@@ -72,9 +80,9 @@ void main() {
     #ifdef OIT_ALPHA_ONLY
     executeAlphaOnlyPhase(gl_FragCoord.z, color.a);
     #else
-    fragColor = calculateFinalColor(color);
-    if (color.a == 0.8) {
-        fragColor = vec4(color.rgb, 1.0) * tintColor;
+    if (isEmissive) {
+        color *= tintColor;
     }
+    fragColor = calculateFinalColor(color, isEmissive);
     #endif
 }
